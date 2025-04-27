@@ -1,6 +1,13 @@
+<img width="941" alt="Screenshot 2025-04-27 153109" src="https://github.com/user-attachments/assets/dea02329-04d0-4200-a1b3-57012a0217d6" />
+<img width="938" alt="Screenshot 2025-04-27 153137" src="https://github.com/user-attachments/assets/620c6c63-118f-41b2-bffb-e2a5d7e006c5" />
+<img width="939" alt="Screenshot 2025-04-27 153200" src="https://github.com/user-attachments/assets/a33ac348-9c33-4c48-838e-617ae1338864" />
+<img width="934" alt="Screenshot 2025-04-27 153232" src="https://github.com/user-attachments/assets/36e5db01-5238-4fac-ad4f-02a60caa2a17" />
+<img width="938" alt="Screenshot 2025-04-27 153311" src="https://github.com/user-attachments/assets/bbfedce4-349b-47d0-9d9b-70493cff9a94" />
+<img width="941" alt="Screenshot 2025-04-27 153339" src="https://github.com/user-attachments/assets/f94490d7-4881-4dc6-8794-f1ec22013f87" />
+
 # Capsule Pharmacy Website Redesign
 
-A modern, sleek redesign of the Capsule Pharmacy website (capsule.com) that maintains the original content and brand identity while elevating the presentation to a 10/10 industry-leading standard.
+A modern, sleek new Pharmacy website that maintains the original content and brand identity while elevating the presentation to a modern industry-leading standard.
 
 ## Features
 
@@ -42,9 +49,7 @@ This redesign draws inspiration from industry leaders like Apple, Tesla, and Str
 
 ## License
 
-This project is for demonstration purposes only. The original content belongs to Capsule Pharmacy.
+This project is for enterprise purposes only. 
 
-## Acknowledgements
-
-- Original content and branding from [Capsule Pharmacy](https://www.capsule.com/)
-- Design inspired by modern web trends and industry leaders 
+## Author
+Developed by Jeremy Martinez-Quinones.
