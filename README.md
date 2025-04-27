@@ -1,34 +1,66 @@
-# Capsule Pharmacy Website Redesign
+# Capsule Pharmacy Website
 
-A modern, sleek redesign of the Capsule Pharmacy website (capsule.com) that maintains the original content and brand identity while elevating the presentation to a 10/10 industry-leading standard.
+A modern, responsive website for Capsule Pharmacy, a digital healthcare company focused on prescription delivery and management services.
+
+## Overview
+
+This project implements a complete website for a digital pharmacy company with a focus on user experience, modern design, and healthcare accessibility. The website showcases the company's services, mission, and partnerships with an easy-to-navigate interface designed for both patients and healthcare providers.
 
 ## Features
 
-- **Modern Design**: Clean, minimalist layout with powerful typography, ample white space, and smooth interactive elements
-- **Refined Branding**: Uses Capsule's color scheme and brand feel, but with a more refined, bold, and luxurious presentation
-- **Responsive Design**: Perfectly responsive for both mobile and desktop experiences
-- **Enhanced UX**: Improved navigation, clear calls-to-action, and logical content structure
-- **Micro-animations**: Subtle animations for enhanced interactivity
-- **Performance Optimized**: Fast loading with optimized resources
+- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
+- **Interactive Elements**: Modern UI with animations and interactive components
+- **Patient Services**: Showcases medication delivery, prescription management, and patient support
+- **Provider Portal**: Dedicated section for healthcare professionals and integration options
+- **Company Information**: Comprehensive about section with company history, values, and leadership team
+
+## Pages
+
+- **Home Page**: Landing page highlighting primary services and benefits
+- **About Us**: Company history, mission, values, and leadership team
+- **For Doctors**: Integration information and benefits for healthcare providers
 
 ## Technologies Used
 
-- HTML5
-- CSS3 (with CSS Variables)
-- JavaScript (vanilla ES6+)
-- SVG graphics
-
-## Getting Started
-
-1. Clone this repository
-2. Open `index.html` in your browser
+- HTML5, CSS3, and JavaScript
+- Custom SVG graphics and illustrations
+- Font Awesome for icons
+- Google Fonts
+- Responsive CSS grid system
+- AOS animation library
 
 ## Project Structure
 
-- `index.html` - Main HTML structure
-- `css/styles.css` - All styling
-- `js/main.js` - JavaScript functionality
-- `images/` - SVG icons and graphics
+```
+├── css/
+│   └── styles.css
+├── js/
+│   └── main.js
+├── images/
+│   ├── about/
+│   │   ├── mission.svg
+│   │   ├── partners.svg
+│   │   ├── stats.svg
+│   │   ├── team.svg
+│   │   └── values.svg
+│   └── [other images]
+├── index.html
+├── about.html
+└── doctors.html
+```
+
+## Installation
+
+1. Clone the repository:
+```
+git clone https://github.com/jeremymartinezq/Pharmacy-Company-Website.git
+```
+
+2. Open any HTML file in your browser to view the website locally
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Design Inspiration
 
@@ -39,10 +71,6 @@ This redesign draws inspiration from industry leaders like Apple, Tesla, and Str
 - Strong visual hierarchy
 - Refined color palette
 - Smooth transitions and micro-interactions
-
-## License
-
-This project is for demonstration purposes only. The original content belongs to Capsule Pharmacy.
 
 ## Acknowledgements
 
