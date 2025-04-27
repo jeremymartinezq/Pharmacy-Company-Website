@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="500" fill="#f8f9fa" />
+  
+  <!-- Timeline path -->
+  <path d="M100,250 C250,100 550,400 700,250" stroke="#0a3156" stroke-width="6" fill="none" />
+  
+  <!-- Milestone points -->
+  <circle cx="100" cy="250" r="20" fill="#ff6b5a" />
+  <text x="100" y="210" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#0a3156">2020</text>
+  
+  <circle cx="300" cy="170" r="20" fill="#ff6b5a" />
+  <text x="300" y="130" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#0a3156">2021</text>
+  
+  <circle cx="500" cy="330" r="20" fill="#ff6b5a" />
+  <text x="500" y="380" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#0a3156">2022</text>
+  
+  <circle cx="700" cy="250" r="20" fill="#ff6b5a" />
+  <text x="700" y="210" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#0a3156">2023</text>
+  
+  <!-- Milestone descriptions -->
+  <rect x="40" y="280" width="120" height="80" rx="10" fill="#2ad9c5" opacity="0.7" />
+  <text x="100" y="320" text-anchor="middle" font-family="Arial" font-size="14" fill="#0a3156">Founded</text>
+  <text x="100" y="340" text-anchor="middle" font-family="Arial" font-size="14" fill="#0a3156">in NYC</text>
+  
+  <rect x="240" y="90" width="120" height="80" rx="10" fill="#2ad9c5" opacity="0.7" />
+  <text x="300" y="130" text-anchor="middle" font-family="Arial" font-size="14" fill="#0a3156">Platform</text>
+  <text x="300" y="150" text-anchor="middle" font-family="Arial" font-size="14" fill="#0a3156">Launch</text>
+  
+  <rect x="440" y="350" width="120" height="80" rx="10" fill="#2ad9c5" opacity="0.7" />
+  <text x="500" y="390" text-anchor="middle" font-family="Arial" font-size="14" fill="#0a3156">Nationwide</text>
+  <text x="500" y="410" text-anchor="middle" font-family="Arial" font-size="14" fill="#0a3156">Expansion</text>
+  
+  <rect x="640" y="280" width="120" height="80" rx="10" fill="#2ad9c5" opacity="0.7" />
+  <text x="700" y="320" text-anchor="middle" font-family="Arial" font-size="14" fill="#0a3156">1 Million</text>
+  <text x="700" y="340" text-anchor="middle" font-family="Arial" font-size="14" fill="#0a3156">Users</text>
+  
+  <!-- Decorative elements -->
+  <path d="M720,100 Q760,150 720,200" stroke="#ff6b5a" stroke-width="4" fill="none" />
+  <path d="M80,100 Q40,150 80,200" stroke="#ff6b5a" stroke-width="4" fill="none" />
+  <circle cx="750" cy="100" r="10" fill="#0a3156" />
+  <circle cx="50" cy="100" r="10" fill="#0a3156" />
+</svg> 

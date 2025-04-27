@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="400" viewBox="0 0 900 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definitions -->
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5f9ff" />
+      <stop offset="100%" stop-color="#ffffff" />
+    </linearGradient>
+    
+    <!-- Timeline node gradients -->
+    <linearGradient id="nodeGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a3156" />
+      <stop offset="100%" stop-color="#0a3156" stop-opacity="0.8" />
+    </linearGradient>
+    
+    <linearGradient id="nodeGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff6b5a" />
+      <stop offset="100%" stop-color="#ff6b5a" stop-opacity="0.8" />
+    </linearGradient>
+    
+    <linearGradient id="nodeGradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2ad9c5" />
+      <stop offset="100%" stop-color="#2ad9c5" stop-opacity="0.8" />
+    </linearGradient>
+    
+    <!-- Card gradients -->
+    <linearGradient id="cardGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f7fbff" />
+    </linearGradient>
+    
+    <linearGradient id="cardGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#fff7f6" />
+    </linearGradient>
+    
+    <linearGradient id="cardGradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f6fffc" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="900" height="400" fill="url(#bgGradient)" />
+  
+  <!-- Title -->
+  <text x="450" y="50" text-anchor="middle" font-family="Arial" font-size="24" fill="#0a3156" font-weight="bold">Our Journey</text>
+  <text x="450" y="80" text-anchor="middle" font-family="Arial" font-size="16" fill="#0a3156">From founding to nationwide expansion</text>
+  
+  <!-- Main timeline line -->
+  <line x1="100" y1="200" x2="800" y2="200" stroke="#0a3156" stroke-width="2" />
+  
+  <!-- Timeline nodes -->
+  <!-- 2020: Founding -->
+  <g transform="translate(150, 200)">
+    <circle cx="0" cy="0" r="15" fill="url(#nodeGradient1)" />
+    <text x="0" y="40" text-anchor="middle" font-family="Arial" font-size="14" fill="#0a3156" font-weight="bold">2020</text>
+    
+    <!-- Card (up) -->
+    <g transform="translate(0, -80)">
+      <rect x="-80" y="-50" width="160" height="100" rx="10" fill="url(#cardGradient1)" stroke="#0a3156" stroke-width="1" />
+      <text x="0" y="-25" text-anchor="middle" font-family="Arial" font-size="14" fill="#0a3156" font-weight="bold">Company Founding</text>
+      <text x="0" y="0" text-anchor="middle" font-family="Arial" font-size="12" fill="#555">
+        <tspan x="0" dy="0">Founded by Emily Turner</tspan>
+        <tspan x="0" dy="20">and Michael Rodriguez</tspan>
+      </text>
+    </g>
+    
+    <!-- Connecting line -->
+    <line x1="0" y1="0" x2="0" y2="-30" stroke="#0a3156" stroke-width="1.5" stroke-dasharray="3,2" />
+  </g>
+  
+  <!-- 2021: Platform Launch -->
+  <g transform="translate(300, 200)">
+    <circle cx="0" cy="0" r="15" fill="url(#nodeGradient2)" />
+    <text x="0" y="40" text-anchor="middle" font-family="Arial" font-size="14" fill="#0a3156" font-weight="bold">2021</text>
+    
+    <!-- Card (down) -->
+    <g transform="translate(0, 80)">
+      <rect x="-80" y="-50" width="160" height="100" rx="10" fill="url(#cardGradient2)" stroke="#ff6b5a" stroke-width="1" />
+      <text x="0" y="-25" text-anchor="middle" font-family="Arial" font-size="14" fill="#0a3156" font-weight="bold">Platform Launch</text>
+      <text x="0" y="0" text-anchor="middle" font-family="Arial" font-size="12" fill="#555">
+        <tspan x="0" dy="0">First digital prescription</tspan>
+        <tspan x="0" dy="20">delivery platform</tspan>
+      </text>
+    </g>
+    
+    <!-- Connecting line -->
+    <line x1="0" y1="0" x2="0" y2="30" stroke="#ff6b5a" stroke-width="1.5" stroke-dasharray="3,2" />
+  </g>
+  
+  <!-- 2022: Expansion -->
+  <g transform="translate(450, 200)">
+    <circle cx="0" cy="0" r="15" fill="url(#nodeGradient3)" />
+    <text x="0" y="40" text-anchor="middle" font-family="Arial" font-size="14" fill="#0a3156" font-weight="bold">2022</text>
+    
+    <!-- Card (up) -->
+    <g transform="translate(0, -80)">
+      <rect x="-80" y="-50" width="160" height="100" rx="10" fill="url(#cardGradient3)" stroke="#2ad9c5" stroke-width="1" />
+      <text x="0" y="-25" text-anchor="middle" font-family="Arial" font-size="14" fill="#0a3156" font-weight="bold">Nationwide Expansion</text>
+      <text x="0" y="0" text-anchor="middle" font-family="Arial" font-size="12" fill="#555">
+        <tspan x="0" dy="0">Expanded to 50 states</tspan>
+        <tspan x="0" dy="20">100+ partner clinics</tspan>
+      </text>
+    </g>
+    
+    <!-- Connecting line -->
+    <line x1="0" y1="0" x2="0" y2="-30" stroke="#2ad9c5" stroke-width="1.5" stroke-dasharray="3,2" />
+  </g>
+  
+  <!-- 2023: 1M Users -->
+  <g transform="translate(600, 200)">
+    <circle cx="0" cy="0" r="15" fill="url(#nodeGradient1)" />
+    <text x="0" y="40" text-anchor="middle" font-family="Arial" font-size="14" fill="#0a3156" font-weight="bold">2023</text>
+    
+    <!-- Card (down) -->
+    <g transform="translate(0, 80)">
+      <rect x="-80" y="-50" width="160" height="100" rx="10" fill="url(#cardGradient1)" stroke="#0a3156" stroke-width="1" />
+      <text x="0" y="-25" text-anchor="middle" font-family="Arial" font-size="14" fill="#0a3156" font-weight="bold">1 Million Users</text>
+      <text x="0" y="0" text-anchor="middle" font-family="Arial" font-size="12" fill="#555">
+        <tspan x="0" dy="0">Reached 1M active users</tspan>
+        <tspan x="0" dy="20">5M+ prescriptions delivered</tspan>
+      </text>
+    </g>
+    
+    <!-- Connecting line -->
+    <line x1="0" y1="0" x2="0" y2="30" stroke="#0a3156" stroke-width="1.5" stroke-dasharray="3,2" />
+  </g>
+  
+  <!-- 2024: New Features -->
+  <g transform="translate(750, 200)">
+    <circle cx="0" cy="0" r="15" fill="url(#nodeGradient2)" />
+    <text x="0" y="40" text-anchor="middle" font-family="Arial" font-size="14" fill="#0a3156" font-weight="bold">2024</text>
+    
+    <!-- Card (up) -->
+    <g transform="translate(0, -80)">
+      <rect x="-80" y="-50" width="160" height="100" rx="10" fill="url(#cardGradient2)" stroke="#ff6b5a" stroke-width="1" />
+      <text x="0" y="-25" text-anchor="middle" font-family="Arial" font-size="14" fill="#0a3156" font-weight="bold">New Features</text>
+      <text x="0" y="0" text-anchor="middle" font-family="Arial" font-size="12" fill="#555">
+        <tspan x="0" dy="0">AI-powered health insights</tspan>
+        <tspan x="0" dy="20">Same-day delivery expansion</tspan>
+      </text>
+    </g>
+    
+    <!-- Connecting line -->
+    <line x1="0" y1="0" x2="0" y2="-30" stroke="#ff6b5a" stroke-width="1.5" stroke-dasharray="3,2" />
+  </g>
+  
+  <!-- Arrow at end of timeline -->
+  <polygon points="800,200 790,195 790,205" fill="#0a3156" />
+  
+  <!-- Decorative elements -->
+  <circle cx="100" cy="100" r="30" fill="#ff6b5a" opacity="0.05" />
+  <circle cx="800" cy="300" r="40" fill="#2ad9c5" opacity="0.05" />
+  <circle cx="450" cy="350" r="30" fill="#0a3156" opacity="0.05" />
+  
+  <!-- Additional text at bottom -->
+  <text x="450" y="380" text-anchor="middle" font-family="Arial" font-size="14" fill="#0a3156" font-style="italic">
+    Committed to revolutionizing healthcare access for everyone
+  </text>
+</svg> 

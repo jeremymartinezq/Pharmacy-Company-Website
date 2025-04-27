@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definitions -->
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7fbfe" />
+      <stop offset="100%" stop-color="#ffffff" />
+    </linearGradient>
+    
+    <!-- Card gradients -->
+    <linearGradient id="cardGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f0f6fc" />
+    </linearGradient>
+    
+    <!-- Icon background gradients -->
+    <linearGradient id="iconBg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a3156" />
+      <stop offset="100%" stop-color="#0a3156" stop-opacity="0.8" />
+    </linearGradient>
+    
+    <linearGradient id="iconBg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff6b5a" />
+      <stop offset="100%" stop-color="#ff6b5a" stop-opacity="0.8" />
+    </linearGradient>
+    
+    <linearGradient id="iconBg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2ad9c5" />
+      <stop offset="100%" stop-color="#2ad9c5" stop-opacity="0.8" />
+    </linearGradient>
+    
+    <!-- Pattern -->
+    <pattern id="dotPattern" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#0a3156" opacity="0.1" />
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bgGradient)" />
+  <rect width="800" height="500" fill="url(#dotPattern)" />
+  
+  <!-- Title -->
+  <text x="400" y="60" text-anchor="middle" font-family="Arial" font-size="28" fill="#0a3156" font-weight="bold">Our Core Values</text>
+  <text x="400" y="90" text-anchor="middle" font-family="Arial" font-size="16" fill="#0a3156">Guiding principles that drive our mission</text>
+  
+  <!-- Value 1: Innovation -->
+  <g transform="translate(200, 200)">
+    <!-- Card background -->
+    <rect x="-120" y="-80" width="240" height="160" rx="15" fill="url(#cardGradient1)" stroke="#0a3156" stroke-width="1" filter="drop-shadow(0px 4px 6px rgba(0,0,0,0.1))" />
+    
+    <!-- Icon -->
+    <circle cx="-80" cy="-30" r="30" fill="url(#iconBg1)" />
+    <g transform="translate(-80, -30)">
+      <!-- Lightbulb icon -->
+      <path d="M-10,0 A10,10 0 1,1 10,0 L5,10 L-5,10 Z" fill="white" />
+      <circle cx="0" cy="-3" r="4" fill="white" />
+    </g>
+    
+    <!-- Text -->
+    <text x="10" y="-40" font-family="Arial" font-size="18" fill="#0a3156" font-weight="bold">Innovation</text>
+    <text x="10" y="-15" font-family="Arial" font-size="14" fill="#555555" width="140">
+      <tspan x="10" dy="0">Pioneering healthcare</tspan>
+      <tspan x="10" dy="20">technology to improve</tspan> 
+      <tspan x="10" dy="20">accessibility and service</tspan>
+    </text>
+  </g>
+  
+  <!-- Value 2: Integrity -->
+  <g transform="translate(600, 200)">
+    <!-- Card background -->
+    <rect x="-120" y="-80" width="240" height="160" rx="15" fill="url(#cardGradient1)" stroke="#ff6b5a" stroke-width="1" filter="drop-shadow(0px 4px 6px rgba(0,0,0,0.1))" />
+    
+    <!-- Icon -->
+    <circle cx="-80" cy="-30" r="30" fill="url(#iconBg2)" />
+    <g transform="translate(-80, -30)">
+      <!-- Shield icon -->
+      <path d="M0,-15 L12,0 L0,15 L-12,0 Z" fill="white" />
+      <path d="M-5,-5 L5,5 M-5,5 L5,-5" stroke="white" stroke-width="2" />
+    </g>
+    
+    <!-- Text -->
+    <text x="10" y="-40" font-family="Arial" font-size="18" fill="#0a3156" font-weight="bold">Integrity</text>
+    <text x="10" y="-15" font-family="Arial" font-size="14" fill="#555555" width="140">
+      <tspan x="10" dy="0">Honest, transparent</tspan>
+      <tspan x="10" dy="20">practices that build</tspan> 
+      <tspan x="10" dy="20">trust with all stakeholders</tspan>
+    </text>
+  </g>
+  
+  <!-- Value 3: Patient Care -->
+  <g transform="translate(200, 400)">
+    <!-- Card background -->
+    <rect x="-120" y="-80" width="240" height="160" rx="15" fill="url(#cardGradient1)" stroke="#2ad9c5" stroke-width="1" filter="drop-shadow(0px 4px 6px rgba(0,0,0,0.1))" />
+    
+    <!-- Icon -->
+    <circle cx="-80" cy="-30" r="30" fill="url(#iconBg3)" />
+    <g transform="translate(-80, -30)">
+      <!-- Heart icon -->
+      <path d="M0,10 L-10,-5 A10,10 0 0,1 0,-10 A10,10 0 0,1 10,-5 Z" fill="white" />
+    </g>
+    
+    <!-- Text -->
+    <text x="10" y="-40" font-family="Arial" font-size="18" fill="#0a3156" font-weight="bold">Patient Care</text>
+    <text x="10" y="-15" font-family="Arial" font-size="14" fill="#555555" width="140">
+      <tspan x="10" dy="0">Putting patients first</tspan>
+      <tspan x="10" dy="20">with personalized,</tspan> 
+      <tspan x="10" dy="20">compassionate service</tspan>
+    </text>
+  </g>
+  
+  <!-- Value 4: Collaboration -->
+  <g transform="translate(600, 400)">
+    <!-- Card background -->
+    <rect x="-120" y="-80" width="240" height="160" rx="15" fill="url(#cardGradient1)" stroke="#0a3156" stroke-width="1" filter="drop-shadow(0px 4px 6px rgba(0,0,0,0.1))" />
+    
+    <!-- Icon -->
+    <circle cx="-80" cy="-30" r="30" fill="url(#iconBg1)" />
+    <g transform="translate(-80, -30)">
+      <!-- Connected nodes icon -->
+      <circle cx="-8" cy="-8" r="5" fill="white" />
+      <circle cx="8" cy="-8" r="5" fill="white" />
+      <circle cx="-8" cy="8" r="5" fill="white" />
+      <circle cx="8" cy="8" r="5" fill="white" />
+      <line x1="-8" y1="-8" x2="8" y2="-8" stroke="white" stroke-width="2" />
+      <line x1="-8" y1="-8" x2="-8" y2="8" stroke="white" stroke-width="2" />
+      <line x1="8" y1="-8" x2="8" y2="8" stroke="white" stroke-width="2" />
+      <line x1="-8" y1="8" x2="8" y2="8" stroke="white" stroke-width="2" />
+    </g>
+    
+    <!-- Text -->
+    <text x="10" y="-40" font-family="Arial" font-size="18" fill="#0a3156" font-weight="bold">Collaboration</text>
+    <text x="10" y="-15" font-family="Arial" font-size="14" fill="#555555" width="140">
+      <tspan x="10" dy="0">Partnering with healthcare</tspan>
+      <tspan x="10" dy="20">providers to create a</tspan> 
+      <tspan x="10" dy="20">connected ecosystem</tspan>
+    </text>
+  </g>
+  
+  <!-- Central connecting element -->
+  <g transform="translate(400, 300)">
+    <circle cx="0" cy="0" r="50" fill="white" stroke="#0a3156" stroke-width="2" />
+    <text x="0" y="-10" text-anchor="middle" font-family="Arial" font-size="16" fill="#0a3156" font-weight="bold">Capsule</text>
+    <text x="0" y="15" text-anchor="middle" font-family="Arial" font-size="14" fill="#0a3156">Pharmacy</text>
+  </g>
+  
+  <!-- Connecting lines -->
+  <line x1="260" y1="200" x2="350" y2="280" stroke="#0a3156" stroke-width="1.5" stroke-dasharray="5,2" />
+  <line x1="540" y1="200" x2="450" y2="280" stroke="#ff6b5a" stroke-width="1.5" stroke-dasharray="5,2" />
+  <line x1="260" y1="400" x2="350" y2="320" stroke="#2ad9c5" stroke-width="1.5" stroke-dasharray="5,2" />
+  <line x1="540" y1="400" x2="450" y2="320" stroke="#0a3156" stroke-width="1.5" stroke-dasharray="5,2" />
+  
+  <!-- Decorative elements -->
+  <circle cx="100" cy="100" r="30" fill="#ff6b5a" opacity="0.1" />
+  <circle cx="700" cy="150" r="40" fill="#2ad9c5" opacity="0.1" />
+  <circle cx="150" cy="450" r="25" fill="#0a3156" opacity="0.1" />
+  <circle cx="650" cy="400" r="35" fill="#ff6b5a" opacity="0.1" />
+</svg> 
